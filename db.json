@@ -1,32 +1,31 @@
 {
-    "board" : "DEVOPSEC",
-    "categories": [
-        {
-            "name": "Enterprise Agile Planning",
-            "color": "#38B87A",
-            "links": [
-                        {
-                            "address" : "https://fr.wikipedia.org/wiki/AIOps",
-                            "type": "wikipedia"
-                        }
-                    ],
-            "tools": [
-                {
-                    "key":"aja",
-                    "name": "Atlassian Jira Align",
-                    "description": "Jira Align is an enterprise-grade solution that enables company leadership to link current developments to business outcomes without disrupting the work of Agile teams.",
-                    "distribution" :"en",
-                    "logo": "data:image/png;base64,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",
-                    "links": [
-                        {
-                            "address" : "https://www.atlassian.com/software/jira?t=b&t=b",
-                            "type": "website"
-                        }
-                    ],
-                    "position": 1,
-                    "useInTessi": false
-                }
-            ]
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
